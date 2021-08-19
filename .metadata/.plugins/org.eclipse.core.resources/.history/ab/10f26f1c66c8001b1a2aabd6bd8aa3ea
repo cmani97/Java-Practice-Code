@@ -1,0 +1,17 @@
+package leetcode;
+//import leetcode.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		All all = new All();
+		char arr[][] = {
+				{'1','1','1','1','0'},
+				{'1','1','0','1','1'},
+				{'1','1','0','0','0'},
+				{'0','0','0','0','0'}
+		};
+		
+	}
+
+}

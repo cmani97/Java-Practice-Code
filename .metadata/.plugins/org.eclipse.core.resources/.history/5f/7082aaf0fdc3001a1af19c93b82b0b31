@@ -1,0 +1,10 @@
+package kickStart;
+
+public class guessing {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

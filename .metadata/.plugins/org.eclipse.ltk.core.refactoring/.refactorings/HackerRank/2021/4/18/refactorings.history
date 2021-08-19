@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;javaPrograms.LinkedList&apos; to &apos;LinkedListEx&apos;&#x0D;&#x0A;- Original project: &apos;HackerRank&apos;&#x0D;&#x0A;- Original element: &apos;javaPrograms.LinkedList&apos;&#x0D;&#x0A;- Renamed element: &apos;javaPrograms.LinkedListEx&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;LinkedList&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;javaPrograms{LinkedList.java[LinkedList" matchStrategy="1" name="LinkedListEx" qualified="false" references="true" similarDeclarations="false" stamp="1619422530897" textual="false" version="1.0"/>
+</session>

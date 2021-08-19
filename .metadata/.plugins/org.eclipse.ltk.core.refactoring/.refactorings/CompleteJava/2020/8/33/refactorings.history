@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 packages to &apos;JavaTutorial/src&apos;&#x0D;&#x0A;- Original project: &apos;CompleteJava&apos;&#x0D;&#x0A;- Destination element: &apos;JavaTutorial/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     CompleteJava/src/excersices&#x0D;&#x0A;     CompleteJava/src/regExpress&#x0D;&#x0A;     CompleteJava/src/multiThreading" description="Copy packages" destination="=JavaTutorial/src" element1="/src&lt;excersices" element2="/src&lt;regExpress" element3="/src&lt;multiThreading" flags="589830" fragments="3" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1596987374450" version="1.0"/>
+</session>

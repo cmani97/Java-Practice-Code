@@ -1,0 +1,25 @@
+package leetcode;
+
+public class All {
+	
+	public int noOfIslands(int[][] grid) {
+		int numIslands = 0;
+		
+		
+		return numIslands;
+	}
+	public int dfs(int[][] arr, int i, int j) {
+		if(i>=arr.length || j>=arr.length || i<0 || j<0)
+			return 0;
+		if(arr[i][j]==1) {
+			arr[i][j] = 0;
+		}
+		
+		dfs(arr, i-1, j);
+		dfs(arr, i+1, j);
+		dfs(arr, i, j-1);
+		dfs(arr, i, j+1);
+		return 1;
+	}
+	/* */
+}

@@ -1,0 +1,118 @@
+package path;
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import java.awt.GridLayout;
+import javax.swing.border.LineBorder;
+import java.awt.Color;
+import javax.swing.JLabel;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import java.awt.CardLayout;
+import java.awt.Font;
+import javax.swing.JComboBox;
+import javax.swing.DefaultComboBoxModel;
+
+public class ds extends JFrame {
+
+	private JPanel contentPane;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					ds frame = new ds();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public ds() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 900, 700);
+		contentPane = new JPanel();
+		contentPane.setBackground(Color.BLACK);
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		contentPane.setLayout(null);
+		setContentPane(contentPane);
+		
+		JPanel panel = new JPanel();
+		panel.setBackground(Color.WHITE);
+		panel.setBounds(0, 0, 884, 58);
+		contentPane.add(panel);
+		panel.setLayout(null);
+		
+		JButton btnArray = new JButton("Array");
+		btnArray.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
+		btnArray.setFont(new Font("Microsoft Sans Serif", Font.BOLD, 16));
+		btnArray.setBounds(10, 12, 102, 33);
+		panel.add(btnArray);
+		
+		JButton btnLinkedList = new JButton("Linked List");
+		btnLinkedList.setFont(new Font("Microsoft Sans Serif", Font.BOLD, 16));
+		btnLinkedList.setBounds(115, 12, 118, 33);
+		panel.add(btnLinkedList);
+		
+		JButton btnStack = new JButton("Stack");
+		btnStack.setFont(new Font("Microsoft Sans Serif", Font.BOLD, 16));
+		btnStack.setBounds(236, 12, 102, 33);
+		panel.add(btnStack);
+		
+		JButton btnQueue = new JButton("Queue");
+		btnQueue.setFont(new Font("Microsoft Sans Serif", Font.BOLD, 16));
+		btnQueue.setBounds(341, 12, 102, 33);
+		panel.add(btnQueue);
+		
+		JComboBox comboBox = new JComboBox();
+		comboBox.setToolTipText("");
+		comboBox.setBounds(451, 14, 100, 31);
+		panel.add(comboBox);
+		
+		JPanel subButtonsPane = new JPanel();
+		subButtonsPane.setBackground(Color.WHITE);
+		subButtonsPane.setBounds(0, 61, 290, 600);
+		contentPane.add(subButtonsPane);
+		subButtonsPane.setLayout(new CardLayout(0, 0));
+		
+		JPanel panel_2 = new JPanel();
+		panel_2.setBackground(Color.WHITE);
+		subButtonsPane.add(panel_2, "name_340320683019100");
+		
+		JPanel panel_3 = new JPanel();
+		panel_3.setBackground(Color.WHITE);
+		subButtonsPane.add(panel_3, "name_340329281026600");
+		
+		JPanel panel_4 = new JPanel();
+		panel_4.setBackground(Color.WHITE);
+		subButtonsPane.add(panel_4, "name_340333361051600");
+		
+		JPanel panel_5 = new JPanel();
+		panel_5.setBackground(Color.WHITE);
+		subButtonsPane.add(panel_5, "name_340339039685500");
+		
+		JPanel panel_1 = new JPanel();
+		panel_1.setBackground(Color.WHITE);
+		panel_1.setBounds(293, 61, 591, 600);
+		contentPane.add(panel_1);
+		panel_1.setLayout(null);
+			
+		
+	}
+}

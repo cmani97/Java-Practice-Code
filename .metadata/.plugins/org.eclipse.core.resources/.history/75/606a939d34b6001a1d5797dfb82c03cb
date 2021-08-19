@@ -1,0 +1,90 @@
+package path;
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import java.awt.GridLayout;
+import javax.swing.border.LineBorder;
+import java.awt.Color;
+import javax.swing.JLabel;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import java.awt.CardLayout;
+
+public class ds extends JFrame {
+
+	private JPanel contentPane;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					ds frame = new ds();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public ds() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 978, 657);
+		contentPane = new JPanel();
+		contentPane.setBackground(Color.BLACK);
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		contentPane.setLayout(null);
+		setContentPane(contentPane);
+		
+		JPanel panel = new JPanel();
+		panel.setBackground(Color.WHITE);
+		panel.setBounds(0, 0, 962, 66);
+		contentPane.add(panel);
+		panel.setLayout(null);
+		
+		JButton btnArray = new JButton("Array");
+		btnArray.setBounds(10, 11, 102, 44);
+		panel.add(btnArray);
+		
+		JPanel subButtonsPane = new JPanel();
+		subButtonsPane.setBackground(Color.WHITE);
+		subButtonsPane.setBounds(0, 69, 290, 549);
+		contentPane.add(subButtonsPane);
+		subButtonsPane.setLayout(new CardLayout(0, 0));
+		
+		JPanel panel_2 = new JPanel();
+		panel_2.setBackground(Color.WHITE);
+		subButtonsPane.add(panel_2, "name_340320683019100");
+		
+		JPanel panel_3 = new JPanel();
+		panel_3.setBackground(Color.WHITE);
+		subButtonsPane.add(panel_3, "name_340329281026600");
+		
+		JPanel panel_4 = new JPanel();
+		panel_4.setBackground(Color.WHITE);
+		subButtonsPane.add(panel_4, "name_340333361051600");
+		
+		JPanel panel_5 = new JPanel();
+		panel_5.setBackground(Color.WHITE);
+		subButtonsPane.add(panel_5, "name_340339039685500");
+		
+		JPanel panel_1 = new JPanel();
+		panel_1.setBackground(Color.WHITE);
+		panel_1.setBounds(293, 69, 669, 549);
+		contentPane.add(panel_1);
+		panel_1.setLayout(null);
+			
+		
+	}
+}

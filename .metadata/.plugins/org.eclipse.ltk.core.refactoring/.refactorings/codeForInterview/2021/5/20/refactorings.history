@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;TCS&apos; to &apos;tcs&apos;&#x0D;&#x0A;- Original project: &apos;codeForInterview&apos;&#x0D;&#x0A;- Original element: &apos;codeForInterview/src/TCS&apos;&#x0D;&#x0A;- Renamed element: &apos;codeForInterview/src/tcs&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;TCS&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;TCS" name="tcs" qualified="false" references="true" stamp="1620873865847" textual="false" version="1.0"/>
+</session>
